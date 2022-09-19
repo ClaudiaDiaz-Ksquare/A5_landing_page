@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    background-color: #e0dddd;
+}
+
+.flex-container {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    border-radius: 2rem;
+    align-items: stretch;
+}
+
+
+.bg-image{
+    background-image: url(woman-library.jpeg);
+    background-position: right;
+    background-size: cover;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.left-child{
+    padding: 8% 12%;
+}
+
+.flex-child{
+    flex: 50%;
+}
+
+form{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.reviews {
+    color: white;
+    width: 90%;
+    height: 40%;
+    margin: 2rem;
+    padding: 1rem;
+    background: rgba(222, 221, 221, 0.6);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, 0.47);
+} 
+
+.reviews h5{
+    padding: 1rem 0;
+}
+
+.form-three a, .reviews-icons{
+    float: right;
+}
+
+.reviews-info{
+    display: inline-block;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+header{
+    display: inline-block;
+}
+
+footer p{
+    display: block;
+    text-align: center;
+}
+
+
+
